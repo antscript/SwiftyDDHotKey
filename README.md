@@ -16,11 +16,17 @@ Copy DDHotKey files in your project
 * DDHotKeyTextField.m
 
 # Step 2
-* add **" #import <AppKit/AppKit.h> "** to DDHotKeyUtilities.m
+add AppKit to DDHotKeyUtilities.m
+```
+#import <AppKit/AppKit.h>
+``` 
 
 # Step 3
 * add **Bridging-Header.h** file in project
-* add **#import "DDHotKeyCenter.h"** to Bridging-Header.h
+* add **DDHotKeyCenter** to Bridging-Header.h
+```
+#import "DDHotKeyCenter.h"
+```
 
 # Step 4
 * use DDHotKey easily with DDHotKey API	
