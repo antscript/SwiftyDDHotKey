@@ -1,4 +1,4 @@
-# SwiftyDDHotKey [中文](http://)
+# SwiftyDDHotKey
 ####How to use DDHotKey with swift (OS X).
 
 [DDHotKey](https://github.com/davedelong/DDHotKey) is an easy-to-use Cocoa class for registering an application to respond to system key events, or "hotkeys". ----DDHotKey
